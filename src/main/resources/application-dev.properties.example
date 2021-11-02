@@ -1,0 +1,15 @@
+# suppress inspection "UnusedProperty" for whole file
+
+#
+# [ People Cosmos Database Connection Properties ]
+#
+# Open the cosmos core sql api database in the portal, and on the keys page, find the https endpoint
+# and primary key value from there.
+#
+# Optionally modify the other properties if you wish
+#
+people.cosmos.uri=YOUR COSMOS DB HTTPS ENDPOINT
+people.cosmos.key=YOUR COSMOS DB PRIMARY KEY
+people.cosmos.database=people
+people.cosmos.container.Person=person
+people.cosmos.enableQueryMetrics=false
