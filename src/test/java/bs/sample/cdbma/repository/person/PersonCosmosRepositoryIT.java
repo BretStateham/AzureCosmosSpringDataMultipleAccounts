@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonCosmosRepositoryIT {
 
     static final String PERSON_ID_1 ="1";
-    static final String PERSON_NAME_1 ="foo1";
+    static final String PERSON_NAME_1 ="Jan Modaal";
     static final int PERSON_AGE_1 =42;
 
     private Person PERSON_1;

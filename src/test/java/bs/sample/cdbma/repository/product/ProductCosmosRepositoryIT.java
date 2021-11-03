@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductCosmosRepositoryIT {
 
     static final String PRODUCT_ID_1 ="1";
-    static final String PRODUCT_NAME_1 ="bar1";
+    static final String PRODUCT_NAME_1 ="Widget";
     static final float PRODUCT_PRICE_1 = 100.00f;
 
     private Product PRODUCT_1;
