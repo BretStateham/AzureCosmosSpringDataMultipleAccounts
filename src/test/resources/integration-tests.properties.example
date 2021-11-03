@@ -1,23 +1,17 @@
-# suppress inspection "UnusedProperty" for whole file
+### suppress inspection "UnusedProperty" for whole file
 #
 # [ People Cosmos DB Connection Properties ]
 #
 people.cosmos.uri=YOUR COSMOS DB HTTPS ENDPOINT
 people.cosmos.key=YOUR COSMOS DB PRIMARY KEY
-people.cosmos.database=people
-people.cosmos.container.Person=person
+people.cosmos.database=peopleIntegration
+people.cosmos.container.Person=personIntegration
 people.cosmos.enableQueryMetrics=false
 #
 # [ Products Cosmos DB Connection Properties ]
 #
 products.cosmos.uri=YOUR COSMOS DB HTTPS ENDPOINT
 products.cosmos.key=YOUR COSMOS DB PRIMARY KEY
-products.cosmos.database=products
-products.cosmos.container.Product=product
+products.cosmos.database=productsIntegration
+products.cosmos.container.Product=productIntegration
 products.cosmos.enableQueryMetrics=false
-
-
-
-
-
-
